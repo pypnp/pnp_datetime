@@ -31,6 +31,10 @@ Simplified datetime functions for Plug and Play.
 * str_to_datetime(cls, pi_str_datetime:str) -> datetime
 * utcnow(cls) -> datetime
 
+## Install Required Packages
+	$ pip install -r requirements.txt
+
+
 ## Automation Testing
 	$ cd pnp_datetime
 	$ python -m unittest -v
