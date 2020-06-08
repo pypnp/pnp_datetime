@@ -1,6 +1,9 @@
 
 # pnp_datetime
-Simplified datetime functions for Plug and Play. 
+pnp_datetime simplify the datetime functions in a style of Plug and Play.
+
+Note: All the date time data is come with timezone, to avoid mistake of calculate time without timezone.
+
 
 ## Repository structure
     pnp_datetime
@@ -34,7 +37,9 @@ Simplified datetime functions for Plug and Play.
 ## Install Required Packages
 	$ pip install -r requirements.txt
 
-
 ## Automation Testing
 	$ cd pnp_datetime
 	$ python -m unittest -v
+
+# Example & Usage
+[Example & Usage](./ExampleAndUsage.md)
